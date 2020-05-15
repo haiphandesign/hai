@@ -45,7 +45,7 @@ header.header {
         right: 1.5rem;
         display: flex;
         flex-direction: column;
-        align-items: center;
+        align-items: flex-end;
 
         @include breakpoint(md) {
             display: flex;

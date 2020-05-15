@@ -9,7 +9,8 @@ section#works {
 
     h1 {
         display: flex;
-        margin-right: 1rem;
+        margin-right: 1.5rem;
+        height: max-content;
     }
 }
 
@@ -26,6 +27,10 @@ section#works {
         align-items: flex-start;
         justify-content: center;
         flex-direction: column;
+
+        @include breakpoint(md) {
+            width: max-content;
+        }
 
         >* {
             position: relative;

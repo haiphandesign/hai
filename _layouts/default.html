@@ -47,8 +47,10 @@
 
     <!-- FOOTER -->
     <footer class="footer">
-        <div class="hey">Hey! Have a pleasant day. 🙌</div>
-        <div class="copyright">&copy; {{ 'now' | date: "%Y" }} {{site.title}}</div>
+        <div class="hey">Oh, hey! Have a pleasant day. 🙌</div>
+        <div class="copyright">&copy; {{site.title}} Last update:
+            {{ 'now' | date: "%b %d, %Y" }}
+        </div>
     </footer>
 
     <!-- JAVASCRIPT -->

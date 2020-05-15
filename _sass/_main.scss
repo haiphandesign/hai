@@ -14,19 +14,21 @@
 }
 
 html {
+    background-color: white;
     font-size: var(--font-size);
     font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
 }
 
 body {
+    position: relative;
     display: flex;
     flex-direction: column;
     width: 100%;
-    background-color: white;
     font-size: 1rem;
     font-family: inherit;
     font-weight: normal;
     line-height: 1.5;
+    overflow-x: hidden;
 }
 
 *,
@@ -101,7 +103,7 @@ footer.footer {
     display: flex;
     flex-direction: column;
     margin-top: auto;
-    padding: 1.5rem;
+    padding: 3rem 1.5rem 1.5rem;
 
     @include breakpoint(md) {
         justify-content: space-between;
@@ -139,44 +141,6 @@ footer.footer {
     }
 }
 
-
-
-
-
-.stickers {
-    .sticker {
-        position: absolute;
-
-        img {
-            display: block;
-            width: 100%;
-            max-width: 8rem;
-        }
-    }
-
-    &-border {
-        position: absolute;
-        top: 0;
-        left: 0;
-        right: 0;
-        bottom: 0;
-        width: 100%;
-        height: 100%;
-        user-select: none;
-        pointer-events: none;
-        overflow: hidden;
-
-        .expander {
-            position: absolute;
-            top: -4rem;
-            left: -4rem;
-            right: -4rem;
-            bottom: -4rem;
-            width: calc(100% + 8rem);
-            height: calc(100% + 8rem);
-        }
-    }
-}
 
 
 
@@ -265,4 +229,69 @@ footer.footer {
     background-repeat: no-repeat;
     background-size: contain;
     transition: .2s all ease;
+}
+
+
+
+
+.flier {
+    pointer-events: none;
+}
+
+.flier>* {
+    animation: fly 50s linear infinite;
+    pointer-events: none !important;
+    top: 0;
+    left: 0;
+    transform: translateX(-120%) translateY(-120%) rotateZ(0);
+    position: fixed;
+    animation-delay: 1s;
+    z-index: 999999;
+}
+
+@keyframes fly {
+
+    98.001%,
+    0% {
+        display: block;
+        transform: translateX(-200%) translateY(100vh) rotateZ(0deg)
+    }
+
+    15% {
+        transform: translateX(100vw) translateY(-100%) rotateZ(180deg)
+    }
+
+    15.001%,
+    18% {
+        transform: translateX(100vw) translateY(-30%) rotateZ(0deg)
+    }
+
+    40% {
+        transform: translateX(-200%) translateY(3vh) rotateZ(-180deg)
+    }
+
+    40.001%,
+    43% {
+        transform: translateX(-200%) translateY(-100%) rotateZ(-180deg)
+    }
+
+    65% {
+        transform: translateX(100vw) translateY(50vh) rotateZ(0deg)
+    }
+
+    65.001%,
+    68% {
+        transform: translateX(20vw) translateY(-200%) rotateZ(180deg)
+    }
+
+    95% {
+        transform: translateX(10vw) translateY(100vh) rotateZ(0deg)
+    }
+}
+
+
+.page-home {
+    .background {
+        background-image: url('/assets/images/home/background.png');
+    }
 }
