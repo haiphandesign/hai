@@ -1,0 +1,18 @@
+title: Hải.
+email: hai@haiphan.design
+description: >-
+    Hai Phan is a multidisciplinary designer from HCMC and design master's student at Monash University who embraces details in his works and believes in layout, typography and strong images.
+baseurl: ''
+url: 'https://haiphan.design'
+
+plugins:
+    - jekyll-feed
+
+collections:
+works:
+    output: true
+    title: Works
+    permalink: /work/:slug
+posts:
+    output: true
+    permalink: /notes/:slug

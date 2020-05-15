@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    {% if page.url == "/" %}
+    <title>{{ site.title }}</title>
+    {% else %}
+    <title>{{ page.title }} / {{ site.title }}</title>
+    {% endif %}
+    <!-- STYLESHEETS -->
+    <link href="/assets/css/tailwind.css" rel="stylesheet">
+    <link href="/assets/css/style.css" rel="stylesheet">
+
+</head>
+
+<body class="page {% if page.id %}page-{{ page.id }}{% endif %}{% if page.slug %}page-{{ page.slug }}{% endif %}">
+
+    <!-- OVERLAY -->
+    <div class="noise"></div>
+
+    <!-- HEADER -->
+    <header class="header">
+        <a class="brand" href="/">
+            <h1 class="name">H<span>ả</span>i</h1>
+            <div class="tm">tm</div>
+        </a>
+        {% if page.url == "/" %}
+        {% else %}
+        <div class="title">{{ page.title }}</div>
+        {% endif %}
+
+        <nav>
+            {% for item in site.data.settings.menu_settings.menu_items %}
+            <a href="{{ item.url }}">{{ item.title }}</a>
+            {% endfor %}
+        </nav>
+        <div class="nav-toggle">
+            <span></span>
+        </div>
+    </header>
+
+    <!-- MAIN -->
+    {{ content }}
+
+    <!-- FOOTER -->
+    <footer class="footer">
+        <div class="hey">Hey! Have a pleasant day. 🙌</div>
+        <div class="copyright">&copy; {{ 'now' | date: "%Y" }} {{site.title}}</div>
+    </footer>
+
+    <!-- JAVASCRIPT -->
+    {%- include javascript.html -%}
+</body>
+
+</html>

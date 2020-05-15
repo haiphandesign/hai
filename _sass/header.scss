@@ -1,0 +1,70 @@
+header.header {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    padding: 1.5rem;
+
+    .brand {
+        display: flex;
+        align-items: flex-start;
+        text-decoration: none;
+        width: max-content;
+
+        .name {
+            display: flex;
+            font-family: 'Canela';
+            font-size: 5rem;
+            line-height: 1;
+            margin-bottom: -.2em;
+
+            span {
+                font-style: italic;
+            }
+        }
+
+        .tm {
+            text-transform: uppercase;
+            font-weight: bold;
+            font-size: .5rem;
+        }
+    }
+
+    .title {
+        display: flex;
+        margin-top: .2em;
+        margin-bottom: -.2em;
+        font-family: 'Canela';
+        font-size: 5rem;
+        line-height: 1;
+    }
+
+    nav {
+        order: -1;
+        display: flex;
+        align-items: center;
+        margin-bottom: 1.5rem;
+
+        @include breakpoint(md) {
+            position: absolute;
+            right: 1.5rem;
+            order: unset;
+            margin-bottom: 0;
+        }
+
+        a {
+            &:not(:first-child) {
+                margin-left: 1rem;
+            }
+        }
+    }
+}
+
+.page-home {
+    header.header {
+        .brand {
+            .name {
+                font-size: 7.5rem;
+            }
+        }
+    }
+}

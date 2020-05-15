@@ -1,0 +1,78 @@
+---
+layout: default
+slug: home
+---
+
+
+<!-- <div class="stickers">
+    <div class="sticker" data-draggable draggable="true">
+        <img src="/assets/images/sticker/candyball.png" style="transform: rotate(30deg)">
+    </div>
+    <div class="sticker" data-draggable draggable="true">
+        <img src="/assets/images/sticker/dva.png" style="transform: rotate(30deg)">
+    </div>
+    <div class="sticker" data-draggable draggable="true">
+        <img src="/assets/images/sticker/junkenstein.png" style="transform: rotate(30deg)">
+    </div>
+    <div class="sticker" data-draggable draggable="true">
+        <img src="/assets/images/sticker/legion.png" style="transform: rotate(30deg)">
+    </div>
+    <div class="sticker" data-draggable draggable="true">
+        <img src="/assets/images/sticker/lion.png" style="transform: rotate(30deg)">
+    </div>
+    <div class="sticker" data-draggable draggable="true">
+        <img src="/assets/images/sticker/omnic.png" style="transform: rotate(30deg)">
+    </div>
+    <div class="sticker" data-draggable draggable="true">
+        <img src="/assets/images/sticker/orb.png" style="transform: rotate(30deg)">
+    </div>
+    <div class="sticker" data-draggable draggable="true">
+        <img src="/assets/images/sticker/punch-kid.png" style="transform: rotate(30deg)">
+    </div>
+</div> -->
+
+<section class="hero">
+    <div class="intro paragraphs">
+        <p>👋 Welcome to Hai Phan's (in the works) online portfolio.</p>
+        <p>Hai Phan is a Melbourne based graphic designer and design master's student who embraces details in his works
+            and believes in layout, typography and strong imagery. Hai values imperfections around him and feels
+            compelled to rise to its challenge in order to improve processes, reimagine experiences and transform the
+            relationship between brands and people. <span>&rarr; <a href="/about/">/about</a></span></p>
+        <p>For enquiries related to project, networking or just to say hi <span href="/about/">&rarr;
+                <a href="mailto:hai@haiphan.design">hai@haiphan.design</a></span></p>
+        <!-- <p><a href="mailto:hai@haiphan.design">CV available upon request.</a></p> -->
+        <div class="socials">
+            <a href="#">Instagram</a>
+            <!-- <a href="#">Behance</a> -->
+            <a href="#">Are.na</a>
+            <a href="#">LinkedIn</a>
+        </div>
+    </div>
+</section>
+
+<section id="hashtags" class="container hashtags">
+    <div class="hashtag">art_direction</div>
+    <div class="hashtag">identity_design</div>
+    <div class="hashtag">branding</div>
+    <div class="hashtag">print</div>
+    <div class="hashtag">web_design</div>
+    <div class="hashtag">layout</div>
+    <div class="hashtag">poster</div>
+    <div class="hashtag">illustration</div>
+</section>
+
+<section id="works" class="container works">
+    <h1><a href="#works">Works</a>&nbsp;<span class="hidden md:inline">&rarr;</span><span
+            class="inline md:hidden">&darr;</span></h1>
+    <div class="works-gallery">
+        {% for item in site.data.settings.works %}
+        <div class="work">
+            <a href="/">
+                <div class="title">{{ item.title }}</div>
+                <div class="info">{{ item.category }}, {{ item.year }}</div>
+                <div class="image"><img src="/assets/images/sample/{{ item.image }}"></div>
+            </a>
+        </div>
+        {% endfor %}
+    </div>
+</section>

@@ -1,0 +1,61 @@
+// OGG
+
+@font-face {
+    font-family: 'Ogg';
+    src: url('/assets/fonts/Ogg/Ogg-Light.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Ogg';
+    src: url('/assets/fonts/Ogg/Ogg-LightItalic.woff') format('woff');
+    font-weight: normal;
+    font-style: italic;
+}
+
+// SAOL
+
+@font-face {
+    font-family: 'Saol';
+    src: url('/assets/fonts/Saol/SaolDisplay-Light.woff2') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Saol';
+    src: url('/assets/fonts/Saol/SaolDisplay-LightItalic.woff2') format('woff');
+    font-weight: normal;
+    font-style: italic;
+}
+
+// CANELA
+
+@font-face {
+    font-family: 'Canela';
+    src: url('/assets/fonts/Canela/Canela-Thin.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Canela';
+    src: url('/assets/fonts/Canela/Canela-ThinItalic.woff2') format('woff2');
+    font-weight: normal;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Canela';
+    src: url('/assets/fonts/Canela/Canela-Medium.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Canela';
+    src: url('/assets/fonts/Canela/Canela-MediumItalic.woff') format('woff');
+    font-weight: bold;
+    font-style: italic;
+}

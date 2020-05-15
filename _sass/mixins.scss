@@ -1,0 +1,72 @@
+//// SCREEN SIZE
+
+$viewport-xs: 639px;
+$viewport-sm: 640px;
+$viewport-md: 768px;
+$viewport-lg: 1024px;
+$viewport-xl: 1280px;
+
+@mixin breakpoint($class) {
+    @if $class==xs {
+        @media (max-width: $viewport-xs) {
+            @content;
+        }
+    }
+
+    @else if $class==sm {
+        @media (min-width: $viewport-sm) {
+            @content;
+        }
+    }
+
+    @else if $class==md {
+        @media (min-width: $viewport-md) {
+            @content;
+        }
+    }
+
+    @else if $class==lg {
+        @media (min-width: $viewport-lg) {
+            @content;
+        }
+    }
+
+    @else if $class==xl {
+        @media (min-width: $viewport-xl) {
+            @content;
+        }
+    }
+
+    @else {
+        @warn "Breakpoint mixin supports: xs, sm, md, lg, xl";
+    }
+}
+
+
+
+// FONTAWESOME
+
+@mixin fontawesome($class) {
+    @if $class==solid {
+        font-family: 'Font Awesome 5 Pro';
+        font-weight: 900;
+    }
+
+    @else if $class==regular {
+        font-family: 'Font Awesome 5 Pro';
+        font-weight: 400;
+    }
+
+    @else if $class==light {
+        font-family: 'Font Awesome 5 Pro';
+        font-weight: 300;
+    }
+
+    @else if $class==brand {
+        font-family: 'Font Awesome 5 Brands';
+    }
+
+    @else {
+        @warn "FontAwesome come in 4 style: solid, regular, light and brand";
+    }
+}

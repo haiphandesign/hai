@@ -1,0 +1,98 @@
+.page-about {
+    background-image: url('/assets/images/hai.jpg');
+    background-size: contain;
+    background-attachment: fixed;
+    background-position: center;
+
+    br.hidden-mobile {
+        display: none;
+
+        @include breakpoint(md) {
+            display: block;
+        }
+    }
+}
+
+.cv {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-gap: 1.5rem;
+    min-width: 0;
+    margin-top: 1.5rem;
+
+    @include breakpoint(md) {
+        grid-template-columns: 1fr 1fr;
+        grid-gap: 6rem;
+    }
+
+    .cv-col {
+        display: grid;
+        grid-gap: 1rem;
+        height: min-content;
+        min-width: 0;
+
+        &.cv-col-2 {
+            display: none;
+
+            @include breakpoint(md) {
+                display: grid;
+            }
+        }
+    }
+}
+
+.cv-item {
+    display: flex;
+    flex-direction: column;
+
+    @include breakpoint(md) {
+        flex-direction: row;
+    }
+
+    .cv-heading {
+        flex-shrink: 0;
+        margin-top: .25em;
+        margin-bottom: .5em;
+        text-transform: uppercase;
+        font-size: .75em;
+        font-weight: 500;
+
+        @include breakpoint(md) {
+            width: 10em;
+        }
+    }
+
+    .cv-content {
+        ul {
+            li {
+                display: flex;
+                flex-wrap: wrap;
+
+                &:not(:first-child) {
+                    margin-top: .5rem;
+                }
+
+                .title {
+                    width: 100%;
+                }
+
+                .info {
+
+                    +.info {
+                        &:before {
+                            content: '\00a0\00a0—\00a0\00a0';
+                        }
+                    }
+                }
+            }
+        }
+    }
+
+    &#clients {
+        .cv-content {
+            column-count: 2;
+            column-gap: 3rem;
+            // text-transform: uppercase;
+        }
+    }
+}
