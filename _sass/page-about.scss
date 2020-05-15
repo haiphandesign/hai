@@ -1,8 +1,7 @@
 .page-about {
-    background-image: url('/assets/images/hai.jpg');
-    background-size: contain;
-    background-attachment: fixed;
-    background-position: center;
+    .background {
+        background-image: url('/assets/images/hai.jpg');
+    }
 
     br.hidden-mobile {
         display: none;

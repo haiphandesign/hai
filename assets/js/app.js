@@ -8,10 +8,12 @@ function heroHeight() {
 }
 
 
-
-// $(function () {
-//     $(".sticker").draggable({
-//         containment: "body.page",
-//         scroll: false
-//     });
-// });
+$('.toggle').click(function (e) {
+    e.preventDefault();
+    if ($(this).hasClass('is-active')) {
+        $(this).removeClass('is-active');
+    } else {
+        $('.navbar-toggle').removeClass('is-active');
+        $(this).addClass('is-active');
+    }
+});
