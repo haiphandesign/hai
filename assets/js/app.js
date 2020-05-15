@@ -51,3 +51,9 @@ function dragMoveListener(event) {
 // this function is used later in the resizing and gesture demos
 
 window.dragMoveListener = dragMoveListener
+
+
+
+document.body.addEventListener('touchmove', function (e) {
+    e.preventDefault();
+});

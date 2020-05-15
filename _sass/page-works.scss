@@ -42,12 +42,24 @@ section#works {
             }
 
             .image {
-                opacity: 1;
+                @include breakpoint(md) {
+                    opacity: 1;
+                }
             }
+
+
         }
 
         a {
             text-decoration: none;
+
+            &:hover {
+                color: inherit;
+
+                @include breakpoint(md) {
+                    color: #d50f25;
+                }
+            }
         }
 
         .info {
