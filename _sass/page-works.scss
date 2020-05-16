@@ -87,6 +87,7 @@ section#works {
             align-items: center;
             justify-content: center;
             width: 100%;
+            max-width: var(--max-width);
             height: 100%;
             user-select: none;
             pointer-events: none;
