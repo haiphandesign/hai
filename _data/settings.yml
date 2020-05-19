@@ -1,8 +1,23 @@
 menu_settings:
     menu_items:
         - title: 'About'
-          url: '/about/'
+          url: '/about'
+        - title: 'Notes'
+          url: '/notes'
+        - title: 'Archive'
+          url: '/archive'
+        - title: 'Shop'
+          url: '/shop'
 
+contacts:
+    email: 'hai@haiphan.design'
+    social:
+        - title: 'Instagram'
+          link: 'https://instagram.com/haiphan.design'
+        - title: 'Arena'
+          link: 'https://www.are.na/hai-phan'
+        - title: 'LinkedIn'
+          link: 'https://www.are.na/hai-phan'
 cv:
     employment:
         - title: 'Graphic Designer'

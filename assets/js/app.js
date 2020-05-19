@@ -10,44 +10,25 @@ function heroHeight() {
 
 $('.toggle').click(function (e) {
     e.preventDefault();
-    if ($(this).hasClass('is-active')) {
-        $(this).removeClass('is-active');
-    } else {
-        $('.navbar-toggle').removeClass('is-active');
-        $(this).addClass('is-active');
-    }
+    $(this).toggleClass('is-active');
 });
 
 
+let mouseCursor = document.querySelector('.cursor-wrapper');
 
+window.addEventListener('mousemove', cursor);
 
-// target elements with the "draggable" class
-interact('.draggable')
-    .draggable({
-        listeners: {
-            move: dragMoveListener
-        }
-    })
-
-
-
-function dragMoveListener(event) {
-    var target = event.target
-    // keep the dragged position in the data-x/data-y attributes
-    var x = (parseFloat(target.getAttribute('data-x')) || 0) + event.dx
-    var y = (parseFloat(target.getAttribute('data-y')) || 0) + event.dy
-    var r = (parseFloat(target.getAttribute('data-r')) || 0)
-
-    // translate the element
-    target.style.webkitTransform =
-        target.style.transform =
-        'translate(' + x + 'px, ' + y + 'px) rotate(' + r + 'deg)'
-
-    // update the posiion attributes
-    target.setAttribute('data-x', x)
-    target.setAttribute('data-y', y)
+function cursor(e) {
+    console.log(e);
+    var mouseCursorX = e.pageX + 'px';
+    var mouseCursorY = e.pageY + 'px';
+    $('.cursor-wrapper').css('transform', 'translate3d(' + mouseCursorX + ',' + mouseCursorY + ', 0)');
 }
 
-// this function is used later in the resizing and gesture demos
+$('a').mouseover(function () {
+    $('.cursor').addClass('cursor:over');
+});
 
-window.dragMoveListener = dragMoveListener
+$('a').mouseout(function () {
+    $('.cursor').removeClass('cursor:over');
+});

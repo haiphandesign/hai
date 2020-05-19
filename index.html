@@ -9,16 +9,17 @@ slug: home
         <p>Hai Phan is a Melbourne based graphic designer and design master's student who embraces details in his works
             and believes in layout, typography and strong imagery. Hai values imperfections around him and feels
             compelled to rise to its challenge in order to improve processes, reimagine experiences and transform the
-            relationship between brands and people. <span>&rarr; <a href="/about/">/about</a></span></p>
-        <p>For enquiries related to a project, networking or just to say hi <span href="/about/">&rarr;
-                <a href="mailto:hai@haiphan.design">hai@haiphan.design</a></span></p>
+            relationship between brands and people. <span>&rarr; <a href="/about">/about</a></span></p>
+        <p>For enquiries related to a project, networking or just to say hi. <span>&rarr;
+                <a href="mailto:{{ site.data.settings.contacts.email }}">
+                    {{ site.data.settings.contacts.email }}</a></span>
+        </p>
         <p>Have some fun, move the stickers around.</p>
         <!-- <p><a href="mailto:hai@haiphan.design">CV available upon request.</a></p> -->
         <div class="socials">
-            <a href="#">Instagram</a>
-            <!-- <a href="#">Behance</a> -->
-            <a href="#">Are.na</a>
-            <a href="#">LinkedIn</a>
+            {% for item in site.data.settings.contacts.social %}
+            <a href="{{ item.link }}">{{ item.title }}</a>
+            {% endfor %}
         </div>
     </div>
 </section>
@@ -32,6 +33,7 @@ slug: home
     <div class="hashtag">layout</div>
     <div class="hashtag">poster</div>
     <div class="hashtag">illustration</div>
+    <div class="hashtag plus"></div>
 </section>
 
 <section id="works" class="container works">
