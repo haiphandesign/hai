@@ -33,7 +33,13 @@ slug: home
     <div class="hashtag">layout</div>
     <div class="hashtag">poster</div>
     <div class="hashtag">illustration</div>
-    <div class="hashtag plus"></div>
+    <div class="hashtag plus toggle"></div>
+    <div class="hashtag hidden">interface_design</div>
+    <div class="hashtag hidden">photography</div>
+    <div class="hashtag hidden">front-end_development</div>
+    <div class="hashtag hidden">photography</div>
+    <div class="hashtag hidden">ux_design</div>
+
 </section>
 
 <section id="works" class="container works">
@@ -45,7 +51,9 @@ slug: home
             <a>
                 <div class="title">{{ item.title }}</div>
                 <div class="info">{{ item.category }}, {{ item.year }}</div>
-                <div class="image"><img src="/assets/images/works/{{ item.image }}"></div>
+                <div class="image">
+                    <img src="/assets/images/works/{{ item.image }}" width="1920px" height="1080px">
+                </div>
             </a>
         </div>
         {% endfor %}

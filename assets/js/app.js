@@ -19,7 +19,6 @@ let mouseCursor = document.querySelector('.cursor-wrapper');
 window.addEventListener('mousemove', cursor);
 
 function cursor(e) {
-    console.log(e);
     var mouseCursorX = e.pageX + 'px';
     var mouseCursorY = e.pageY + 'px';
     $('.cursor-wrapper').css('transform', 'translate3d(' + mouseCursorX + ',' + mouseCursorY + ', 0)');
@@ -31,4 +30,11 @@ $('a').mouseover(function () {
 
 $('a').mouseout(function () {
     $('.cursor').removeClass('cursor:over');
+});
+
+
+
+
+$('.archive-gallery').masonry({
+    itemSelector: '.item'
 });

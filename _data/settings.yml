@@ -6,8 +6,6 @@ menu_settings:
           url: '/notes'
         - title: 'Archive'
           url: '/archive'
-        - title: 'Shop'
-          url: '/shop'
 
 contacts:
     email: 'hai@haiphan.design'
