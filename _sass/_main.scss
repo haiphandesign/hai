@@ -42,7 +42,7 @@ body {
 }
 
 ::selection {
-    background-color: currentColor;
+    background-color: black;
 }
 
 a {
@@ -87,6 +87,7 @@ strong {
 
 @import 'page-about';
 @import 'page-works';
+@import 'page-shop';
 
 
 .paragraphs {

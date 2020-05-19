@@ -37,6 +37,8 @@ section#works {
         }
 
         &:hover {
+            cursor: pointer;
+
             >* {
                 z-index: 2;
             }

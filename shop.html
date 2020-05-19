@@ -5,6 +5,21 @@ title: Shop
 ---
 
 
-<section class="container">
-    updating
+<section id="shop" class="container shop">
+    <div style="max-width: 40rem;">Support you local Hai. You can buy my merchs, prints and other stuffs that I made
+        here, both physically or
+        digitally. I don't sell stuff directly on this website, you will be directed to a related website where you can
+        buy the product after you click on the item.</div>
+    <ul class="products">
+        {% for i in (1..8) %}
+        <li class="product">
+            <div class="product-image"></div>
+            <div class="product-info">
+                <div class="name">hyperion-0{{ i }}.tshirt</div>
+                <div class="price">$10.00</div>
+            </div>
+        </li>
+        {% endfor %}
+    </ul>
+
 </section>

@@ -21,7 +21,7 @@
 
     @include breakpoint(md) {
         grid-template-columns: 1fr 1fr;
-        grid-gap: 6rem;
+        grid-gap: 3rem;
     }
 
     .cv-col {
