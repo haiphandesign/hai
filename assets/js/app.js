@@ -22,6 +22,7 @@ function cursor(e) {
     var mouseCursorX = e.pageX + 'px';
     var mouseCursorY = e.pageY + 'px';
     $('.cursor-wrapper').css('transform', 'translate3d(' + mouseCursorX + ',' + mouseCursorY + ', 0)');
+    $('.cursor-wrapper').css('opacity', '1');
 }
 
 $('a').mouseover(function () {
@@ -30,11 +31,4 @@ $('a').mouseover(function () {
 
 $('a').mouseout(function () {
     $('.cursor').removeClass('cursor:over');
-});
-
-
-
-
-$('.archive-gallery').masonry({
-    itemSelector: '.item'
 });

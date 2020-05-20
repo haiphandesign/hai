@@ -44,14 +44,6 @@ body {
     cursor: none;
 }
 
-::selection {
-    background-color: black;
-}
-
-::-webkit-selection {
-    background-color: black;
-}
-
 a {
     text-decoration: underline;
     color: inherit;
@@ -107,6 +99,7 @@ strong {
     user-select: none;
     mix-blend-mode: difference;
     // transform: translate3d(50vh, 50vh, 0);
+    opacity: 0;
 
     @media (hover: none) {
         display: none;
