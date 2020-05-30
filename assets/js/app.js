@@ -25,6 +25,14 @@ function cursor(e) {
     $('.cursor-wrapper').css('opacity', '1');
 }
 
+$('.cursor\\:link').mouseover(function () {
+    $('.cursor').addClass('cursor:over');
+});
+
+$('.cursor\\:link').mouseout(function () {
+    $('.cursor').removeClass('cursor:over');
+});
+
 $('a').mouseover(function () {
     $('.cursor').addClass('cursor:over');
 });

@@ -4,8 +4,6 @@ menu_settings:
           url: '/about'
         - title: 'Notes'
           url: '/notes'
-        - title: 'Archive'
-          url: '/archive'
 
 contacts:
     email: 'hai@haiphan.design'

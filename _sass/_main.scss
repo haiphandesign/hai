@@ -127,6 +127,7 @@ strong {
 }
 
 
+
 @import 'header';
 
 @import 'page-about';
@@ -177,6 +178,7 @@ footer.footer {
 
     .socials {
         display: flex;
+        margin-top: .25rem;
 
         a {
             &:not(:first-child) {
@@ -373,6 +375,7 @@ footer.footer {
 .page-home {
     .background {
         background-image: url('/assets/images/home/background.png');
+        background-size: cover;
     }
 }
 
