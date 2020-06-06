@@ -2,8 +2,10 @@ menu_settings:
     menu_items:
         - title: 'About'
           url: '/about'
-        - title: 'Notes'
-          url: '/notes'
+        - title: 'Posters'
+          url: '/posters'
+        - title: 'Archive'
+          url: '/archive'
 
 contacts:
     email: 'hai@haiphan.design'

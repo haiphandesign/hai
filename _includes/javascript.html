@@ -5,12 +5,12 @@
 
 {%- if page.gallery -%}
 <script>
-    var $archivegallery = $('.archive-gallery').masonry({
+    var $imagegallery = $('.image-gallery').masonry({
         itemSelector: '.item'
     });
 
-    $archivegallery.imagesLoaded().progress(function () {
-        $archivegallery.masonry('layout');
+    $imagegallery.imagesLoaded().progress(function () {
+        $imagegallery.masonry('layout');
     });
 </script>
 {%- endif -%}
