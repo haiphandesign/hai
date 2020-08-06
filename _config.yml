@@ -10,13 +10,13 @@ plugins:
     - jekyll-minifier
 
 collections:
-works:
-    output: true
-    title: Works
-    permalink: /work/:slug
-posts:
-    output: true
-    permalink: /notes/:slug
+    works:
+        output: true
+        title: Works
+        permalink: /work/:slug
+    notes:
+        output: true
+        permalink: /notes/:slug
 
 sass:
     style: compressed

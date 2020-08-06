@@ -1,18 +1,36 @@
+// PAGE HEIGHT
+
 window.onload = function () {
-    heroHeight();
+    fullHeight();
 }
 
-function heroHeight() {
+function fullHeight() {
     var windowHeight = $(window).outerHeight();
     $("body").css("min-height", windowHeight);
+    $("body").css("max-height", windowHeight);
+    $("body").css("height", windowHeight);
 }
 
+
+
+// INDEX BG
+
+$(function () {
+    $('.background').addClass('is-active');
+});
+
+
+
+// TOGGLE
 
 $('.toggle').click(function (e) {
     e.preventDefault();
     $(this).toggleClass('is-active');
 });
 
+
+
+// CURSOR
 
 let mouseCursor = document.querySelector('.cursor-wrapper');
 
@@ -39,4 +57,31 @@ $('a').mouseover(function () {
 
 $('a').mouseout(function () {
     $('.cursor').removeClass('cursor:over');
+});
+
+
+
+// STICKERS
+
+function stickerRandomizer(min, max) {
+    min = Math.ceil(min);
+    max = Math.floor(max);
+    return Math.floor(Math.random() * (max - min + 1)) + min;
+}
+
+$('.sticker').each(function () {
+    let x = stickerRandomizer(-5, 80);
+    let y = stickerRandomizer(-5, 80);
+    let z = stickerRandomizer(1, 10);
+    let rotate = stickerRandomizer(-30, 30);
+    $(this).css({
+        'top': x + '%',
+        'left': y + '%',
+        'z-index': z,
+        'transform': 'rotate(' + rotate + 'deg)',
+    });
+});
+
+$('.sticker').draggable({
+    stack: '.sticker'
 });

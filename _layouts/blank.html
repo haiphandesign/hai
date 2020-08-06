@@ -30,39 +30,8 @@
         <div class="cursor"></div>
     </div>
 
-    <!-- HEADER -->
-    <header class="header">
-        <a class="brand" href="/">
-            <h1 class="name">H<span>ả</span>i</h1>
-            <div class="tm">tm</div>
-        </a>
-        {% if page.url == "/" %}
-        {% else %}
-        <div class="title">{{ page.title }}</div>
-        {% endif %}
-        <div class="nav-toggle toggle">
-            {% for i in (1..3) %}
-            <span></span>
-            {% endfor %}
-        </div>
-        <nav>
-            {% for item in site.data.settings.menu_settings.menu_items %}
-            <a href="{{ item.url }}">{{ item.title }}</a>
-            {% endfor %}
-        </nav>
-
-    </header>
-
     <!-- MAIN -->
     {{ content }}
-
-    <!-- FOOTER -->
-    <footer class="footer">
-        <div class="hey">Oh, hey! Have a pleasant day. 🙌</div>
-        <div class="copyright">&copy; {{site.title}} Last update:
-            {{ 'now' | date: "%b %d, %Y" }}
-        </div>
-    </footer>
 
     <!-- JAVASCRIPT -->
     {%- include javascript.html -%}

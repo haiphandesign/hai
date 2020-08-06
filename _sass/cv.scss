@@ -1,0 +1,160 @@
+.cv {
+    width: 100%;
+    max-width: 1000px;
+    margin: 0 auto;
+    // border: 1px solid rgba(0, 0, 0, 0.2);
+    padding: 3em 1.5em;
+    // font-size: 90%;
+
+    @include breakpoint(md) {
+        padding: 3em;
+        font-size: 80%;
+    }
+
+    @include breakpoint(lg) {
+        padding: 6em;
+        font-size: 75%;
+    }
+}
+
+.cv-header {
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-between;
+    margin-bottom: 3em;
+
+    @include breakpoint(md) {
+        margin-bottom: 4.5em;
+    }
+
+    @include breakpoint(lg) {
+        margin-bottom: 6em;
+    }
+
+    .brand {
+        display: flex;
+        align-items: flex-start;
+        text-decoration: none;
+        width: max-content;
+
+        .name {
+            display: flex;
+            font-family: 'Canela';
+            font-size: 7.5rem;
+            line-height: 1;
+            margin-bottom: -.22em;
+
+            span {
+                font-style: italic;
+            }
+        }
+
+        .tm {
+            text-transform: uppercase;
+            font-weight: bold;
+            font-size: .5rem;
+            user-select: none;
+        }
+    }
+
+    .contacts {
+        width: max-content;
+        font-size: .75em;
+        text-align: right;
+        line-height: 1.75;
+
+        a {
+            text-decoration: none;
+        }
+    }
+}
+
+.cv-main {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-gap: 3em;
+
+    .cv-section {
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-gap: 0;
+        width: 100%;
+
+        @include breakpoint(md) {
+            grid-template-columns: 1fr 4fr;
+            grid-gap: 3em;
+        }
+    }
+
+    .cv-title {
+        h1 {
+            text-transform: uppercase;
+            text-decoration: underline;
+            font-size: .75em;
+            margin-top: .5em;
+        }
+    }
+
+    .cv-content {
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-gap: 1.5em;
+
+        h2 {
+            font-weight: 500;
+            font-size: 1.125em;
+
+            @include breakpoint(md) {
+                font-size: 1.25em;
+            }
+
+            .job {
+                opacity: .375;
+            }
+        }
+
+        .description {
+            margin-top: .5em;
+            font-size: .875em;
+        }
+
+        .info {
+            display: flex;
+            align-items: center;
+            margin-top: .25em;
+            opacity: .375;
+            font-size: .875em;
+
+            .time+.place {
+                &:before {
+                    content: '—';
+                    margin: 0 .75em;
+                }
+            }
+        }
+    }
+
+    .cv-skills {
+        display: grid;
+        grid-gap: 1.5em;
+        grid-template-columns: repeat(2, 1fr);
+        font-size: .875em;
+
+        @include breakpoint(md) {
+            grid-template-columns: repeat(4, 1fr);
+        }
+
+        h3 {
+            opacity: .375;
+            margin-bottom: .25em;
+        }
+    }
+
+    .cv-download {
+        text-transform: uppercase;
+        text-decoration: underline;
+        font-size: .75em;
+        margin-top: .5em;
+        white-space: nowrap;
+    }
+}

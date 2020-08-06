@@ -11,18 +11,18 @@ contacts:
     email: 'hai@haiphan.design'
     social:
         - title: 'Instagram'
-          link: 'https://instagram.com/haiphan.design'
+          link: 'https://instagram.com/hai___phan'
         - title: 'Arena'
-          link: 'https://www.are.na/hai-phan'
+          link: 'https://are.na/hai-phan'
         - title: 'LinkedIn'
-          link: 'https://www.are.na/hai-phan'
+          link: 'https://linkedin.com/in/hai---phan'
 cv:
     employment:
         - title: 'Graphic Designer'
           company: 'Self-employed'
           time: '2014 - Present'
         - title: 'Graphic Designer, Jr.'
-          company: 'Themenoid, DE'
+          company: 'Themenoid, NL'
           time: '2015 - 2016'
         - title: 'Web Designer'
           company: 'Witness Performance, AU'
@@ -63,3 +63,281 @@ works:
       category: 'Art Direction'
       year: '2018'
       image: 'thom.png'
+
+reviews:
+    - title:
+      content: I will definitely order again. Love the feeling after apply it on skin before going to bed.
+      author: Sylvia Hine
+      date: 29/05/2020
+      product: 1
+    - title:
+      content: I’m so relieved I have found the product for my beauty routine. Love it!
+      author: Linh Pham
+      date: 14/02/2020
+      product: 1
+    - title: Super health benefits
+      content: We have been using this for years and would recommend this product.
+      author: Gillian Cairns
+      date: 09/05/2020
+      product: 2
+    - title: Amazing products!
+      content: Great product. I can notice a huge difference in my overall wellness, will definitely order more. Thank you!
+      author: Nancy McNary
+      date: 04/04/2020
+      product: 2
+    - title:
+      content: Best service and the quickest shipping ever!
+      author: Tu Nguyen
+      date: 25/02/2020
+      product: 2
+    - title:
+      content: Great stuff! Love that it's grass fed.
+      author: Nguyen Tony
+      date: 19/01/2020
+      product: 2
+    - title: Love Apha Lipid Lifeline
+      content: I love this products that recommend to my family, friends and collegues, should be on commission! ^^
+      author: Audrey Pham
+      date: 13/12/2019
+      product: 2
+    - title: Huge improvement with my hair, skin and nail!
+      content: I have already noticed an improvement in my hair, skin and nails. Everyone should have buy this Colostrum if they love their body.
+      author: Kim Lee
+      date: 05/12/2019
+      product: 2
+    - title:
+      content: I like how they do vegi cap.
+      author: John Pham
+      date: 08/04/2020
+      product: 3
+    - title:
+      content: I was struggling to keep my energy levels up, I was tired all the time. A friend suggested I try one of her products - Alpha Lipid™ Lifeline, I couldn't believe the difference it made, I have more energy and feel stronger and healthier.
+      author: Boon Nam
+      date: 19/02/2020
+      product: 3
+    - title:
+      content: Orders are dispatched quickly and the customer service is excellent as always!
+      author: Linda Grant
+      date: 22/01/2020
+      product: 3
+    - title:
+      content: good but price little high. Please notify me if discount.
+      author: John He
+      date: 15/01/2020
+      product: 3
+
+    - title: Amazing and highly recommend
+      content: I’ve purchased it a few times now and recommended it to all my friends!
+      author: Casey Torpy
+      date: 19/12/2019
+      product: 3
+    - title:
+      content: My 8 years boy love it so I love it. Will order again
+      author: Malinda H
+      date: 15/05/2020
+      product: 4
+    - title:
+      content: I bought Alpha Lipid Lifeline powder for me and the Dinotab Colostrum for my children. Loving this brand and will be purchasing again.
+      author: Thanh Hoang
+      date: 08/04/2020
+      product: 4
+    - title: Great Colostrum!
+      content: My kids love this dinotabs tablets, especially the packaging.
+      author: Diem Thuy Tran
+      date: 23/02/2020
+      product: 4
+    - title:
+      content: My baby is addicted to this stuff. He needs more. Can I get a discount? :))
+      author: Natalie Ruddick
+      date: 19/01/2020
+      product: 4
+    - title: great value and quality
+      content: Good value colostrum. My kids named it "milk candy"
+      author: Trinh Nguyen
+      date: 13/01/2020
+      product: 4
+    - title: We use it everyday!
+      content: Tastes amazing. We feel it better everyday
+      author: Joanna Anderson
+      date: 27/05/2020
+      product: 5
+    - title: Enjoyed it
+      content: Excellent product! Great service and speedy delivery
+      author: Jennifer Phillips
+      date: 22/05/2020
+      product: 5
+    - title: This product works!
+      content:
+      author: Jan Saunders
+      date: 01/05/2020
+      product: 5
+    - title: Proved results!
+      content: I forced my parents to drink a cup of Alpha Lipid Lifeline Colostrum milk every single day to boost up their immunity and good health.
+      author: Thanh Nguyen
+      date: 17/04/2020
+      product: 5
+    - title: Money worth
+      content: First time using colostrum and it's great.
+      author: Melanie Sanbrook
+      date: 09/04/2020
+      product: 5
+    - title: Great!
+      content: Came a lot earlier than expected. Feel so good when I put it in my smoothies on the daily. Great product!
+      author: Mandi Coulson
+      date: 28/03/2020
+      product: 5
+    - title: Newcomer
+      content: I have only recently started buying colostrum powder but I love this product
+      author: Luke Bisset
+      date: 25/03/2020
+      product: 5
+    - title:
+      content: Fully satisfied with service and delivery. Our family love this products.
+      author: Shannon Sebek
+      date: 15/03/2020
+      product: 5
+    - title: Great bulk buy discount!
+      content: Great bulk buy discount! I am even think of being a colostrum retailer.lol
+      author: Thanh Tam Tran
+      date: 27/02/2020
+      product: 5
+    - title: So good!
+      content: I love to mix it with my mango or avocado smoothies every morning. Decicious and healthy, Yum!
+      author: Eugenia Eugenius
+      date: 21/02/2020
+      product: 5
+    - title: Happy customer
+      content: Thoroughly happy with this colostrum powder.Love this product and will continue to purchase it!
+      author: George Wilson
+      date: 08/01/2020
+      product: 5
+    - title:
+      content: Easy to add into drinks and smoothies. Just what I wanted.
+      author: Sharla Hine
+      date: 03/01/2020
+      product: 5
+    - title: Best service and product quality!
+      content: Have tried a few and this colostrum is simply the best I have used so far.
+      author: Heather kaur
+      date: 27/11/2019
+      product: 5
+    - title: Another happy customer
+      content: I was so impressed by your customer service and the assistance I received. Thank you and I will certainly be a returning customer.
+      author: Hai Phan
+      date: 26/11/2019
+      product: 5
+    - title: Great value &quality
+      content: I bought that one for my mom & dad. They love it a lot. Amazing product!
+      author: Bridget Cashmore
+      date: 22/10/2019
+      product: 5
+    - title:
+      content: I bought this colostrum powder a month ago, i am so happy i did.
+      author: Ling Yao
+      date: 15/10/2019
+      product: 5
+    - title: Good colostrum Milk Powder
+      content: Very good product. Will buy again!
+      author: Nhien Nguyen
+      date: 07/08/2019
+      product: 5
+    - title: Nice natural supplement
+      content: After taking it daily for 2 weeks, I can already feel the benefits. Love this colostrum
+      author: Akihiro R
+      date: 15/07/2019
+      product: 5
+    - title: Perfect!
+      content: Has a small issue placing my order but Pure Colostrum team is nothing but being so professional, friendly and super helpful. Love their products and service!
+      author: Taylah
+      date: 12/05/2019
+      product: 5
+    - title: Family use
+      content: Our family has it everyday to boost immune system. Very good product!
+      author: Taniya Young
+      date: 17/05/2020
+      product: 6
+    - title: Unbelievable!
+      content: I have been using Alpha Lipid Lifeline for 2 months and my body feel great.  My nails even get thicker, could not believe it. I would definitely recommend this colostrum if anyone is thinking about what to buy. Me, another 100 cans, YES
+      author: Quy Hoang
+      date: 11/04/2020
+      product: 6
+    - title: My new favourite everyday!
+      content: Great product, use it everyday.
+      author: Jim Simisakakis
+      date: 11/04/2020
+      product: 6
+    - title: 5 star for quality
+      content: I especially love the creamy texture of this colostrum milk compared to plain milk. Really good product, good value.
+      author: Donald Fox
+      date: 05/04/2020
+      product: 6
+    - title: Pure Colostrum Service
+      content: As for the product itself, it is too early for me to tell any major benefit as I just use it for 2 weeks, but I am so pleased with Pure Colostrum service, their staff are so helpful and friendly. Thank you Mia for actively tracking my missing stock in transit.
+      author: Nhan Nguyen
+      date: 03/01/2020
+      product: 6
+    - title:
+      content: In my opion, this Alpha Lipid Colostrum is far superior to even its more costly competitors. Will definitely stick to this products. Also, I do enjoy their bulk buy with the discount.
+      author: Lyn Beadon
+      date: 17/12/2019
+      product: 6
+    - title: Excellent value for money
+      content: I love this products.
+      author: Hannah Truong
+      date: 04/12/2019
+      product: 6
+    - title:
+      content: The service was quick and I was happy with my purchase.
+      author: Huy Nguyen
+      date: 18/10/2019
+      product: 6
+    - title: Good value for money
+      content: Already reordered. So yes very happy with this product
+      author: Zhang Huang
+      date: 15/10/2019
+      product: 6
+    - title: GOOD COLOSTRUM
+      content: My family has long been eating this brand of cow colostrum, high nutritional value, good taste, is very helpful to the health of the family.
+      author: Thao Le
+      date: 03/10/2019
+      product: 6
+    - title: Highly recommended
+      content: My mum use this colostrum for the last 3 years. Good taste, good effect.
+      author: Manoj Rai
+      date: 05/09/2019
+      product: 6
+    - title: My family love it!
+      content: My mum usually buy this on bulk buy 12 Alpha Lipid Lifeline colostrum +1 free so she can share for relatives as well, a potential retailer for Pure Colostrum:))
+      author: Phillip Nguyen
+      date: 08/04/2019
+      product: 6
+    - title: Excellent product and service
+      content: High level of Bovine Colostrum compared to other colostrum products.
+      author: Alpana
+      date: 08/03/2020
+      product: 7
+    - title: Love love love it!
+      content: Great products! Highly recommend.
+      author: Brooke Clifford
+      date: 08/05/2020
+      product: 8
+    - title: Pure colostrum
+      content: So far the best colostrum I have used. Will buy again!
+      author: Tyson Zahner
+      date: 13/04/2020
+      product: 8
+    - title: Unexpectedly good!
+      content: Love love love this immufort High Potency Colostrum.Just what I wanted for my everyday boost of immunity.
+      author: Boon Nam
+      date: 24/03/2020
+      product: 8
+    - title:
+      content: I trust colostrum from New Zealand and Australia. Great supplier, great product!
+      author: Lynn Herring
+      date: 15/03/2020
+      product: 8
+    - title: Glad I purchased
+      content: I 've been looking for a good colostrum for quite some time and so glad I stumbled across this immufort high Potency Colostrum. My body feel great everyday. Awsome products!
+      author: Janey Fanton
+      date: 22/01/2020
+      product: 8
