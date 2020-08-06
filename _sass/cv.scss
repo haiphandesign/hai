@@ -1,4 +1,4 @@
-.cv {
+.page-cv .cv {
     width: 100%;
     max-width: 1000px;
     margin: 0 auto;
@@ -101,6 +101,7 @@
         grid-gap: 1.5em;
 
         h2 {
+            display: flex;
             font-weight: 500;
             font-size: 1.125em;
 
@@ -110,11 +111,12 @@
 
             .job {
                 opacity: .375;
+                margin-left: .375em;
             }
         }
 
         .description {
-            margin-top: .5em;
+            margin-top: .375em;
             font-size: .875em;
         }
 
