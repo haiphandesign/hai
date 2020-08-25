@@ -5,110 +5,145 @@ title: About
 ---
 
 <div class="container">
-    <div id="intro" class="paragraphs">
-        <div>This is the online portfolio of Hai Phan.</div>
-        <div>Hai Phan is a Melbourne based graphic designer and design master's student who embraces details in his
-            works and believes in layout, typography and strong imagery. Hai values imperfections around him and feels
-            compelled to rise to its challenge in order to improve processes, reimagine experiences and transform the
-            relationship between brands and people.</div>
-        <div>Originate from HCMC, VN — Hai Phan got his Bachelor of Design at the Royal Melbourne Institure of
-            Technology (RMIT University) in Australia where he return a few year after to continue his study in
-            Master of Design at Monash University.</div>
-        <div>Hai is currently working as an executive art director for&nbsp;<span class="hover hover:inline"><span
-                    class="handle"><a href="/">Hyperion</a>&trade;</span><span class="image"><img
-                        src="/assets/images/about/hyperion.png"></span></span> (soon); lead
-            designer for&nbsp;<span class="hover hover:inline"><span class="handle"><a
-                        href="https://deadendvietnam.com/">Deadend</a>&trade;</span><span class="image"><img
-                        src="/assets/images/about/deadend.png"></span></span>'s
-            upcoming sub-brand and co-founding the
-            text-based role-playing platform&nbsp;<span class="hover hover:inline"><span class="handle"><a
-                        href="https://dantruyen.com">Dẫn Truyện</a>&trade;</span><span class="image"><img
-                        src="/assets/images/about/dan-truyen.png"></span></span> .</div>
-        <div>Hai (obviously) doesn't have all the answer,<br class="hidden-mobile">
-            just the tireless curiosity to pursue them.</div>
-    </div>
-    <div class="hashtags">
-        <div class="hashtag">art_direction</div>
-        <div class="hashtag">identity_design</div>
-        <div class="hashtag">branding</div>
-        <div class="hashtag">print</div>
-        <div class="hashtag">web_design</div>
-        <div class="hashtag">layout</div>
-        <div class="hashtag">poster</div>
-        <div class="hashtag">illustration</div>
-        <div class="hashtag plus toggle cursor:link"></div>
-        <div class="hashtag hidden">interface_design</div>
-        <div class="hashtag hidden">photography</div>
-        <div class="hashtag hidden">front-end_development</div>
-        <div class="hashtag hidden">photography</div>
-        <div class="hashtag hidden">ux_design</div>
-    </div>
-    <div class="cv">
-        <div class="cv-col cv-col-1">
-            <div id="experience" class="cv-item">
-                <div class="cv-heading"><a href="#experience">Experience</a></div>
-                <div class="cv-content">
-                    <ul>
-                        {% for item in site.data.settings.cv.employment %}
-                        <li>
-                            <p class="title">{{ item.title }}</p>
-                            <p class="info">{{ item.company }}</p>
-                            <p class="info">{{ item.time }}</p>
-                        </li>
-                        {% endfor %}
-                    </ul>
-                </div>
-            </div>
-            <div id="education" class="cv-item">
-                <div class="cv-heading"><a href="#education">Education</a></div>
-                <div class="cv-content">
-                    <ul>
-                        {% for item in site.data.settings.cv.education %}
-                        <li>
-                            <p class="title">{{ item.title }}</p>
-                            <p class="info">{{ item.institute }}</p>
-                            <p class="info">{{ item.time }}</p>
-                        </li>
-                        {% endfor %}
-                    </ul>
-                </div>
-            </div>
-            <div id="contact" class="cv-item">
-                <div class="cv-heading"><a href="#contact">Contact</a></div>
-                <div class="cv-content">
-                    <p><a href="mailto:hai@haiphan.design">hai@haiphan.design</a></p>
-                    <p><a href="tel:+84913755169">+84 913 755 169</a></p>
-                    <p><a href="tel:+61401224357">+61 401 224 357</a></p>
-                </div>
-            </div>
-        </div>
-        <div class="cv-col cv-col-2">
-            <div id="featured" class="cv-item">
-                <div class="cv-heading"><a href="#featured">Awards/<br>Featured</a></div>
-                <div class="cv-content">
-                    <p>RMIT Student Showcase, 2015</p>
-                    <p>RMIT Student Showcase, 2016</p>
-                    <p>RMIT Student Showcase, 2017</p>
-                    <p>AIGA, Online, 2018</p>
-                </div>
-            </div>
-            <div id="clients" class="cv-item">
-                <div class="cv-heading"><a href="#clients">Clients</a></div>
-                <div class="cv-content">
-                    <p>Allaccess</p>
-                    <p>King Park Media</p>
-                    <p>VP Bank</p>
-                    <p>Deadend</p>
-                    <p>Vaegabond</p>
-                    <!-- <p>Vietphongsaigon</p> -->
-                    <p>Spiderum</p>
-                    <p>Dẫn Truyện</p>
-                    <p>Maizo Mart</p>
-                    <p>Traveloka</p>
-                    <!-- <p>Winston Thomas</p> -->
-                </div>
-            </div>
-        </div>
-    </div>
-    <div class="mt-8 -mb-6 md:-mb-8"><a href="/cv" class="no-underline">CV available</a>&nbsp;upon request.</div>
+	<div id="intro" class="paragraphs">
+		<div>This is the online portfolio of Hai Phan.</div>
+		<div>
+			Hai Phan is a Saigon based graphic designer and design master's
+			student who embraces details in his works and believes in layout,
+			typography and strong imagery. Hai values imperfections around him
+			and feels compelled to rise to its challenge in order to improve
+			processes, reimagine experiences and transform the relationship
+			between brands and people.
+		</div>
+		<div>
+			Originate from HCMC, VN — Hai Phan got his Bachelor of Design at the
+			Royal Melbourne Institure of Technology (RMIT University) in
+			Australia where he return a few year after to continue his study in
+			Master of Design at Monash University.
+		</div>
+		<div>
+			Hai is currently working as the founder and executive art director
+			for&nbsp;<span class="hover hover:inline"
+				><span class="handle"><a href="/">Hyperion</a>&trade;</span
+				><span class="image"
+					><img
+						src="/assets/images/about/hyperion.png" /></span></span
+			>; co-owner and art director for&nbsp;<span
+				class="hover hover:inline"
+				><span class="handle"
+					><a href="https://deadendvietnam.com/">Deadend</a
+					>&trade;</span
+				><span class="image"
+					><img src="/assets/images/about/deadend.png" /></span
+			></span>
+			and co-founder of the text-based role-playing platform&nbsp;<span
+				class="hover hover:inline"
+				><span class="handle"
+					><a href="https://dantruyen.com">Dẫn Truyện</a></span
+				><span class="image"
+					><img src="/assets/images/about/dan-truyen.png" /></span
+			></span>
+			.
+		</div>
+		<div>
+			Hai (obviously) doesn't have all the answer,<br
+				class="hidden-mobile"
+			/>
+			just the tireless curiosity to pursue them.
+		</div>
+	</div>
+	<div class="hashtags">
+		<div class="hashtag">art_direction</div>
+		<div class="hashtag">identity_design</div>
+		<div class="hashtag">branding</div>
+		<div class="hashtag">print</div>
+		<div class="hashtag">web_design</div>
+		<div class="hashtag">layout</div>
+		<div class="hashtag">poster</div>
+		<div class="hashtag">illustration</div>
+		<div class="hashtag plus toggle cursor:link"></div>
+		<div class="hashtag hidden">interface_design</div>
+		<div class="hashtag hidden">photography</div>
+		<div class="hashtag hidden">front-end_development</div>
+		<div class="hashtag hidden">photography</div>
+		<div class="hashtag hidden">ux_design</div>
+	</div>
+	<div class="cv">
+		<div class="cv-col cv-col-1">
+			<div id="experience" class="cv-item">
+				<div class="cv-heading">
+					<a href="#experience">Experience</a>
+				</div>
+				<div class="cv-content">
+					<ul>
+						{% for item in site.data.settings.cv.employment %}
+						<li>
+							<p class="title">{{ item.title }}</p>
+							<p class="info">{{ item.company }}</p>
+							<p class="info">{{ item.time }}</p>
+						</li>
+						{% endfor %}
+					</ul>
+				</div>
+			</div>
+			<div id="education" class="cv-item">
+				<div class="cv-heading"><a href="#education">Education</a></div>
+				<div class="cv-content">
+					<ul>
+						{% for item in site.data.settings.cv.education %}
+						<li>
+							<p class="title">{{ item.title }}</p>
+							<p class="info">{{ item.institute }}</p>
+							<p class="info">{{ item.time }}</p>
+						</li>
+						{% endfor %}
+					</ul>
+				</div>
+			</div>
+			<div id="contact" class="cv-item">
+				<div class="cv-heading"><a href="#contact">Contact</a></div>
+				<div class="cv-content">
+					<p>
+						<a href="mailto:hai@haiphan.design"
+							>hai@haiphan.design</a
+						>
+					</p>
+					<p><a href="tel:+84913755169">+84 913 755 169</a></p>
+					<p><a href="tel:+61401224357">+61 401 224 357</a></p>
+				</div>
+			</div>
+		</div>
+		<div class="cv-col cv-col-2">
+			<div id="featured" class="cv-item">
+				<div class="cv-heading">
+					<a href="#featured">Awards/<br />Featured</a>
+				</div>
+				<div class="cv-content">
+					<p>RMIT Student Showcase, 2015</p>
+					<p>RMIT Student Showcase, 2016</p>
+					<p>RMIT Student Showcase, 2017</p>
+					<p>AIGA, Online, 2018</p>
+				</div>
+			</div>
+			<div id="clients" class="cv-item">
+				<div class="cv-heading"><a href="#clients">Clients</a></div>
+				<div class="cv-content">
+					<p>Allaccess</p>
+					<p>King Park Media</p>
+					<p>VP Bank</p>
+					<p>Deadend</p>
+					<p>Vaegabond</p>
+					<!-- <p>Vietphongsaigon</p> -->
+					<p>Spiderum</p>
+					<p>Dẫn Truyện</p>
+					<p>Maizo Mart</p>
+					<p>Traveloka</p>
+					<!-- <p>Winston Thomas</p> -->
+				</div>
+			</div>
+		</div>
+	</div>
+	<div class="mt-8 -mb-6 md:-mb-8">
+		<a href="/cv" class="no-underline">CV available</a>&nbsp;upon request.
+	</div>
 </div>
